@@ -1,0 +1,36 @@
+.game {
+    .game-area {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .game-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 2em;
+        .info {
+            padding: 5px;
+            margin-top: 5px;
+            background-color: rgba(255, 255, 255, 0.5);
+            width: 230px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            .data-point {
+                color: white;
+            }
+        }
+        button {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #27a4df9a;
+            cursor: pointer;
+            margin-top: -10px;
+            margin-bottom: 5px;
+            :focus-visible {
+                outline: -webkit-focus-ring-color auto 0px;
+            }
+        }
+    }
+}

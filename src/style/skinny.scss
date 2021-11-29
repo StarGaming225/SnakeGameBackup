@@ -1,0 +1,35 @@
+.mobile-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 8em;
+    .mid-btns {
+        display: flex;
+        flex-direction: row;
+        .left {
+            display: flex;
+            margin: 10px 75px;
+            background-color: rgba(51, 187, 10, 0.5);
+            border-radius: 100px;
+            padding: 5px 15px;
+        }
+        .right {
+            display: flex;
+            margin: 10px 75px;
+            background-color: rgba(51, 187, 10, 0.5);
+            border-radius: 100px;
+            padding: 5px 15px;
+        }
+    }
+    .down {
+        margin-bottom: 50px;
+        background-color: rgba(51, 187, 10, 0.5);
+        border-radius: 100px;
+        padding: 5px;
+    }
+    .up {
+        background-color: rgba(51, 187, 10, 0.5);
+        border-radius: 100px;
+        padding: 5px;
+    }
+}
