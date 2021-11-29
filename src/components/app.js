@@ -5,7 +5,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp, faArrowDown, faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import NavBar from './navigation/navBar';
+import NavBar from './navigation/navbar';
 import Game from "./pages/game/Game";
 import Login from "./pages/login";
 import SignUp from "./pages/sign-up";
