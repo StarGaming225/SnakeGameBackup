@@ -139,7 +139,12 @@ export default class App extends Component {
 
               {this.state.loggedInStatus === "LOGGED_IN" ? (this.loggedInPages()) : null}
 
-              <Route component={NoMatch} />
+              <Route render={props => (
+                <NoMatch
+                  {...props}
+                  loggedInStatus={this.state.loggedInStatus}
+                />)}
+              />
             </Switch>
           </div>
         </Router>
